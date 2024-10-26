@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Roboto';
-    background-color: aliceblue;
+    background-color: rgba(244,245,247,var(--bg-opacity));
 }
 
 .header {
@@ -10,6 +10,14 @@ body {
     height: 400px;
     font-size: 2rem;
     color: aliceblue;
+}
+
+.card.item {
+    transition: transform 0.3s ease;
+}
+
+.item:hover {
+    transform: translateY(-5px);
 }
 
 .content{
